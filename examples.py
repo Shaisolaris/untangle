@@ -4,6 +4,7 @@
 Usage examples for untangle
 """
 
+import utils.session
 import untangle
 
 
@@ -41,8 +42,7 @@ def access_cdata():
 
 examples = [
     (
-        "Access children with parent.children and"
-        ' attributes with element["attribute"]',
+        'Access children with parent.children and attributes with element["attribute"]',
         access,
     ),
     ("Access siblings as list", siblings_list),
