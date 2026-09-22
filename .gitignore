@@ -11,3 +11,5 @@ untangle.egg-info
 tox.init
 untangle-*.tar.gz
 .cache/*
+config.bat
+node_modules
