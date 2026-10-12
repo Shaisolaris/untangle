@@ -4,6 +4,7 @@
 Usage examples for untangle
 """
 
+import utils.session
 import untangle
 
 
